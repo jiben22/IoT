@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title id="attaque_ovh">Objets connectés</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Benjamin LE GALLO - Anthony AUPIAIS - Elhadj DIALLO"/>
+        <meta name="description" content="Les objets connectés sont aujourd'hui en pleine expansion, ils présentent de nombreuses opportunités mais il peut y avoir néanmoins quelques inconvénients."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="images/png" href="../images/Logo%20reduc.png"/> <!-- Favicon -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css"/> <!-- Inclusion de la feuille de style du framework Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="../css/objet_connecte.css"/> <!-- Inclusion de la feuille de style -->
+    </head>
+
+    <body id="haut_de_page">
+
+        <nav class="container hidden-xs"> <!-- Menu disponible pour toutes les versions SAUF MOBILE -->
+            <a class="col-lg-2" href="../index.html"><img src="../images/Logo.png" title="Logo objets connectés" alt="Logo objets connectés" width="796" height="345"/></a>
+            <ul>
+                <li class="col-lg-2"><a href="../index.html">Présentation</a></li>
+                <li class="col-lg-2"><a href="opportunites.html">Opportunités</a></li>
+                <li class="col-lg-2"><a href="limites.html">Limites</a></li>
+                <li class="col-lg-2"><a href="attaque_ovh.html">L'attaque OVH</a></li>
+                <li class="col-lg-2"><a href="a_propos.html">A propos</a></li>
+            </ul> 
+        </nav>
+
+        <nav class="container visible-xs"> <!-- Menu disponible uniquement pour VERSION MOBILE -->
+            <div>
+                <a href="../index.html"><img class="col-xs-3" src="../images/Logo%20reduc.png" title="Logo objets connectés" alt="Logo objets connectés" width="218" height="247"/></a>
+            </div>
+            <div class="col-xs-offset-1 col-xs-6">
+            </div>
+            <a data-toggle="dropdown" class="col-xs-2"> <!-- Menu déroulant -->
+                <img id="menu-mobile" src="../images/mobile-menu.png" alt="Menu" title="Menu" width="50" height="60"/>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="../index.html">Présentation</a></li>
+                <li class="divider"></li>
+                <li><a href="opportunites.html">Opportunités</a></li>
+                <li class="divider"></li>
+                <li><a href="limites.html">Limites</a></li>
+                <li class="divider"></li>
+                <li><a href="attaque_ovh.html">L'attaque OVH</a></li>
+                <li class="divider"></li>
+                <li><a href="a_propos.html">A propos</a></li> 
+            </ul>
+        </nav>
+
+        <div class="container-fluid text-center">    
+            <div class="row content">
+                <div class="hidden-xs hidden-sm col-sm-2" id="bordure"> <!-- Liste des articles disponible uniquement pour la VERSION BUREAU -->
+                    <div>
+                        <p><a href="opportunites.html#opportunites">Opportunités</a></p>
+                        <p><a href="opportunites.html#marche_obj">Marché des objets connectés</a></p>
+                        <p><a href="opportunites.html#opportunites_eco">Opportunités économiques</a></p>
+                        <p><a href="opportunites.html#Entreprise">Pour les entreprises</a></p>
+                        <p><a href="opportunites.html#Industrie">Pour les industries</a></p>
+                        <p><a href="opportunites.html#opportunites_socio">Opportunités sociologiques</a></p>
+                    </div>
+                    <br/>
+                    <div>
+                        <p><a href="limites.html#limites">Limites</a></p>
+                        <p><a href="limites.html#incomp_insec">Incompatibilité et insécurité</a></p>
+                        <p><a href="limites.html#limites_eco">Limites économiques</a></p>
+                        <p><a href="limites.html#limites_psycho">Limites psychologiques</a></p>
+                    </div>
+                    <br/>
+                    <div>
+                        <p><a href="attaque_ovh.html#attaque_ovh">Attaque contre OVH</a></p>
+                    </div>
+                </div>     
+
+                <div class="col-sm-8 text-left" id="bloc_centre"> 
+                    <h1> Attaque Contre OVH</h1>
+                    <hr/>
+                    <p><strong>Des hackers ont piratés 150 000 objets connectés</strong> et ont fait une 
+                        <a href="https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service" target="_blank">attaque DDoS</a> contre les serveurs d’OVH. OVH est en partie une société d’hébergement web qui compte 260 serveurs, 20 datacenters, 17 pays et 18 milliard d’applications web hébergées.</p>
+                    <br/>
+                    <figure><img src="../images/ovh.png" title="Logo OVH" alt="Logo OVH" width="405" height="270"/>
+                        <figcaption class="hidden">Copyright : https://www.ovh.com/fr/news/logos/normal/logo-ovh-300DPI.png</figcaption>
+                    </figure>
+                    <br/>
+                    <p>Il faut savoir que <strong>la sécurité des objets connectés est très faible</strong> puisque le mot de passe du fabricant est identique pour tous les appareils. OVH a subi <strong>deux attaques DDoS avec un total de 1To/s</strong>, dont une attaque à 799Go/s. Les objets qui ont été piratés étaient, des routeurs, caméras IP, enregistreur vidéo… Le point commun est leur exposition à internet sans réelle sécurité. C’est une démarche enfantine pour contrer la sécurité de ces objets, il suffit de créer <strong>un botnet superpuissant</strong>, du fait de la sécurité basique à cause du mot passe par défaut du constructeur qui est le même pour tous ses appareils. Les objectifs des constructeurs à l’avenir est de <strong>renforcer la sécurité de leurs appareils en adoptant des mesures strictes</strong>.
+                    </p>
+                    <br/><br/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Version BUREAU -->
+        <aside class="hidden-xs"> <!-- Aside avec Facebook/Twitter pour toutes versions SAUF MOBILE -->           
+            <div class="well">
+                <a href="https://www.facebook.com/objetconnecte" onclick="window.open(this.href); return false;"><img src="../images/facebook.jpg" title="Facebook" alt="Logo Facebook" width="50" height="50"/></a>
+            </div>
+            <div class="well">
+                <a href="https://twitter.com/objetconnecte01?lang=fr" onclick="window.open(this.href); return false;"><img src="../images/twitter.png" title="Twitter" alt="Logo Twitter" width="50" height="50"/></a>
+            </div>
+        </aside>
+
+        <footer class="hidden-xs pied-de-page"> <!-- Pied de page pour toutes les versions SAUF MOBILE -->
+            <div class="col-lg-2">
+                <img src="../images/Logo%20reduc.png" title="Logo" alt="Logo" width="218" height="247"/>
+                <div>
+                    <a href="https://www.facebook.com/objetconnecte" onclick="window.open(this.href); return false;"><img src="../images/facebook_blanc.gif" title="Facebook" alt="Logo Facebook" width="35" height="50"/></a>
+
+                    <a href="https://twitter.com/objetconnecte01?lang=fr" onclick="window.open(this.href); return false;"><img src="../images/twitter_blanc.png" title="Twitter" alt="Logo Twitter" width="40" height="50"/></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <p><a href="../index.html">Présentation</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="opportunites.html">Opportunités</a></p>
+                <p><a href="opportunites.html#marche_obj">Marché des objets connectés</a></p>
+                <p><a href="opportunites.html#opportunites_eco">Opportunités économiques</a></p>
+                <p><a href="opportunites.html#opportunites_socio">Opportunités sociologiques</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="limites.html#limites">Limites</a></p>
+                <p><a href="limites.html#incomp_insec">Incompatibilité et insécurité</a></p>
+                <p><a href="limites.html#limites_eco">Limites économiques</a></p>
+                <p><a href="limites.html#limites_psycho">Limites psychologiques</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="attaque_ovh.html#attaque_ovh">Attaque contre OVH</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="a_propos.html">A propos</a></p>
+            </div>
+        </footer>
+
+        <!-- Version MOBILE -->
+        <aside id="fleche" class="visible-xs"> <!-- Aside avec flèche pour revenir en haut de la page pour VERSION MOBILE -->
+            <a class="js-scrollTo" href="#haut_de_page"> <!-- Javascript -->
+                <img src="../images/m_fleche.png" title="Haut de page" alt="Haut de page" width="40" height="40"/>
+            </a>
+        </aside>
+
+        <footer class="visible-xs container"> <!-- Pied de page pour VERSION MOBILE -->
+            <div class="col-xs-offset-3 col-xs-3">
+                <a href="https://www.facebook.com/objetconnecte" onclick="window.open(this.href); return false;"><img src="../images/facebook_blanc.gif" title="Facebook" alt="Logo Facebook" width="50" height="50"/></a>
+            </div>
+
+            <div class="col-xs-3">
+                <a href="https://twitter.com/objetconnecte01?lang=fr" onclick="window.open(this.href); return false;"><img src="../images/twitter_blanc.png" title="Twitter" alt="Logo Twitter" width="50" height="50"/></a>
+            </div>
+        </footer>
+
+        <!-- Placement du javascript ici pour ne pas bloquer le chargement de la page -->
+        <script type="text/javascript" src="../js/fleche.js"></script>  <!-- Script permettant un défilement animé pour remonter en haut de page -->
+    </body>
+</html>

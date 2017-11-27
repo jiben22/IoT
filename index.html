@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Objets connectés</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Benjamin LE GALLO - Anthony AUPIAIS - Elhadj DIALLO"/>
+        <meta name="description" content="Les objets connectés sont aujourd'hui en pleine expansion, ils présentent de nombreuses opportunités mais il peut y avoir néanmoins quelques inconvénients."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="images/png" href="images/Logo%20reduc.png"/> <!-- Favicon -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css"/> <!-- Inclusion de la feuille de style du framework Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/objet_connecte.css"/> <!-- Inclusion de la feuille de style -->
+    </head>
+
+    <body id="haut_de_page">
+
+        <nav class="container hidden-xs"> <!-- Menu disponible pour toutes les versions SAUF MOBILE -->
+            <a class="col-lg-2" href="index.html"><img src="images/Logo.png" title="Logo objets connectés" alt="Logo objets connectés" width="796" height="345"/></a>
+            <ul>
+                <li class="col-lg-2"><a href="index.html">Présentation</a></li>
+                <li class="col-lg-2"><a href="html/opportunites.html">Opportunités</a></li>
+                <li class="col-lg-2"><a href="html/limites.html">Limites</a></li>
+                <li class="col-lg-2"><a href="html/attaque_ovh.html">L'attaque OVH</a></li>
+                <li class="col-lg-2"><a href="html/a_propos.html">A propos</a></li>
+            </ul> 
+        </nav>
+
+        <nav class="container visible-xs"> <!-- Menu disponible uniquement pour VERSION MOBILE -->
+            <div>
+                <a href="index.html"><img class="col-xs-3" src="images/Logo%20reduc.png" title="Logo objets connectés" alt="Logo objets connectés" width="218" height="247"/></a>
+            </div>
+            <div class="col-xs-offset-1 col-xs-6">
+            </div>
+            <a data-toggle="dropdown" class="col-xs-2"> <!-- Menu déroulant -->
+                <img id="menu-mobile" src="images/mobile-menu.png" alt="Menu" title="Menu" width="50" height="60"/>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="index.html">Présentation</a></li>
+                <li class="divider"></li>
+                <li><a href="html/opportunites.html">Opportunités</a></li>
+                <li class="divider"></li>
+                <li><a href="html/limites.html">Limites</a></li>
+                <li class="divider"></li>
+                <li><a href="html/attaque_ovh.html">L'attaque OVH</a></li>
+                <li class="divider"></li>
+                <li><a href="html/a_propos.html">A propos</a></li> 
+            </ul>
+        </nav>
+
+        <div class="container-fluid text-center">    
+            <div class="row content">
+                <div class="hidden-xs hidden-sm col-sm-2" id="bordure"> <!-- Liste des articles disponible uniquement pour la VERSION BUREAU -->
+                    <div>
+                        <p><a href="html/opportunites.html#opportunites">Opportunités</a></p>
+                        <p><a href="html/opportunites.html#marche_obj">Marché des objets connectés</a></p>
+                        <p><a href="html/opportunites.html#opportunites_eco">Opportunités économiques</a></p>
+                        <p><a href="html/opportunites.html#Entreprise">Pour les entreprises</a></p>
+                        <p><a href="html/opportunites.html#Industrie">Pour les industries</a></p>
+                        <p><a href="html/opportunites.html#opportunites_socio">Opportunités sociologiques</a></p>
+                    </div>
+                    <br/>
+                    <div>
+                        <p><a href="html/limites.html#limites">Limites</a></p>
+                        <p><a href="html/limites.html#incomp_insec">Incompatibilité et insécurité</a></p>
+                        <p><a href="html/limites.html#limites_eco">Limites économiques</a></p>
+                        <p><a href="html/limites.html#limites_psycho">Limites psychologiques</a></p>
+                    </div>
+                    <br/>
+                    <div>
+                        <p><a href="html/attaque_ovh.html#attaque_ovh">Attaque contre OVH</a></p>
+                    </div>
+                </div>       
+
+                <div class="col-sm-8 text-left" id="bloc_centre"> <!-- Bloc principal de la page -->
+
+                    <header> <!-- Introduction avec image de présentation -->
+                        <h1>Les objets connectés</h1>
+                        <hr/>
+                        <p>Les objets connectés sont aujourd'hui en pleine expansion, que ce soit dans le domaine de la <strong>santé</strong> ou encore dans la <strong>domotique</strong>. Ils présentent de nombreuses opportunités mais vous l'avez compris, il peut y avoir néanmoins quelques inconvénients. Nous avons pu entendre ces derniers mois, l'attaque d'un grand groupe d'hébergement web, OVH qui a été piraté avec des objets connectés.</p>
+                        <br/>
+                        <figure><img src="images/objets_connectes_presentation.jpg" title="Appareils objets connectés" alt="Objets connectés" width="648" height="324">
+                            <figcaption class="hidden">Copyright : http://img.e-marketing.fr/Img/BREVE/2015/10/260274/etude-attractivite-objets-connectes-aupres-Fran-ais-T.jpg</figcaption>
+                        </figure>
+                        <br/>
+                    </header>
+
+                    <section> <!-- Opportunités avec les articles correspondants -->
+                        <h2>Opportunités</h2>   
+                        <hr/>
+                        <article>
+                            <h3>Marché des objets connectés</h3>
+                            <p>Le marché des objets connectés en France représente <strong>340 millions d’euros en 2015</strong> contre 150 millions en 2014. Les produits principaux se situent des deux branches, la branche de la santé & bien-être et la domotique. Il faut savoir que les ordinateurs, tablettes et smartphones ne font pas partis de ce marché mais de celui du high-tech. On peut distinguer quatre catégories de produits dans le domaine de la santé & bien-être. Tout d’abord, les balances connectés <a href="html/opportunites.html#marche_obj">suite...</a></p>
+                        </article>
+                        <article>
+                            <h3>Opportunités économiques</h3>
+                            <p>De nouvelles opportunités d’ordre économiques apparaissent, comme ceux liées à la <strong>réduction de dépenses énergétiques</strong> qui nous permettent de faire des économies grâce à l’utilisation des objets connectés. <a href="html/opportunites.html#opp_eco">suite...</a></p>
+                        </article>
+                        <br/>
+                    </section>
+
+                    <section> <!-- Limites avec les articles correspondants --> 
+                        <h2>Limites</h2>
+                        <hr/>
+                        <article>
+                            <h3>Incompatibilité et insécurité</h3>
+                            <p>La fonction d’un objet connecté se limite dès lors que la connexion d’un objet à un autre ne s’opère pas. Certaines applications ne sont disponibles que sur certains systèmes d’exploitation comme IOS, ce qui peut restreindre l’accès pour les autres utilisateurs. Un objet connecté comporte la plupart du temps la capacité de <strong>collecter les données personnelles de l’individu</strong> qui le possède. <a href="html/limites.html#incomp_insec">suite...</a></p>
+                        </article>
+                        <article>
+                            <h3>Limites économiques</h3>
+                            <p>La part des objets connectés s’est littéralement multiplier ces dernières années même en raison de la crise économique, qui diminue le pouvoir d’achat et donc freine les consommateurs à acheter ces objets. <strong>Les prix sont assez élevés</strong> pour certains produits alors qu’on peut utiliser les mêmes objets manuellement sans qu’ils soient connectés. <a href="html/limites.html#limites_eco">suite...</a></p>
+                        </article>
+                        <br/>
+                        <figure><img src="images/top-objets-connectes.jpg" title="Top 10 objets connectés" alt="Top 10 des objets connectés" width="583" height="373">
+                            <figcaption class="hidden">Copyright : http://img.phonandroid.com/2014/12/top-objets-connectes.jpg</figcaption>
+                        </figure>
+                        <br/><br/>
+                    </section>  
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Version BUREAU -->
+        <aside class="hidden-xs"> <!-- Aside avec Facebook/Twitter pour toutes versions SAUF MOBILE -->           
+            <div class="well">
+                <a href="https://www.facebook.com/objetconnecte" onclick="window.open(this.href); return false;"><img src="images/facebook.jpg" title="Facebook" alt="Logo Facebook" width="50" height="50"/></a>
+            </div>
+            <div class="well">
+                <a href="https://twitter.com/objetconnecte01?lang=fr" onclick="window.open(this.href); return false;"><img src="images/twitter.png" title="Twitter" alt="Logo Twitter" width="50" height="50"/></a>
+            </div>
+        </aside>
+
+        <footer class="hidden-xs pied-de-page"> <!-- Pied de page pour toutes les versions SAUF MOBILE -->
+            <div class="col-lg-2">
+                <img src="images/Logo%20reduc.png" title="Logo" alt="Logo" width="218" height="247"/>
+                <div>
+                    <a href="https://www.facebook.com/objetconnecte" onclick="window.open(this.href); return false;"><img src="images/facebook_blanc.gif" title="Facebook" alt="Logo Facebook" width="35" height="50"/></a>
+
+                    <a href="https://twitter.com/objetconnecte01?lang=fr" onclick="window.open(this.href); return false;"><img src="images/twitter_blanc.png" title="Twitter" alt="Logo Twitter" width="40" height="50"/></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <p><a href="index.html">Présentation</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="html/opportunites.html">Opportunités</a></p>
+                <p><a href="html/opportunites.html#marche_obj">Marché des objets connectés</a></p>
+                <p><a href="html/opportunites.html#opportunites_eco">Opportunités économiques</a></p>
+                <p><a href="html/opportunites.html#opportunites_socio">Opportunités sociologiques</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="html/limites.html#limites">Limites</a></p>
+                <p><a href="html/limites.html#incomp_insec">Incompatibilité et insécurité</a></p>
+                <p><a href="html/limites.html#limites_eco">Limites économiques</a></p>
+                <p><a href="html/limites.html#limites_psycho">Limites psychologiques</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="html/attaque_ovh.html#attaque_ovh">Attaque contre OVH</a></p>
+            </div>
+            <div class="col-lg-2">
+                <p><a href="html/a_propos.html">A propos</a></p>
+            </div>
+        </footer>
+
+        <!-- Version MOBILE -->
+        <aside id="fleche" class="visible-xs"> <!-- Aside avec flèche pour revenir en haut de la page pour VERSION MOBILE -->
+            <a class="js-scrollTo" href="#haut_de_page"> <!-- Javascript -->
+                <img src="images/m_fleche.png" title="Haut de page" alt="Haut de page" width="40" height="40"/>
+            </a>
+        </aside>
+
+        <footer class="visible-xs container"> <!-- Pied de page pour VERSION MOBILE -->
+            <div class="col-xs-offset-3 col-xs-3">
+                <a href="https://www.facebook.com/objetconnecte" onclick="window.open(this.href); return false;"><img src="images/facebook_blanc.gif" title="Facebook" alt="Logo Facebook" width="50" height="50"/></a>
+            </div>
+
+            <div class="col-xs-3">
+                <a href="https://twitter.com/objetconnecte01?lang=fr" onclick="window.open(this.href); return false;"><img src="images/twitter_blanc.png" title="Twitter" alt="Logo Twitter" width="50" height="50"/></a>
+            </div>
+        </footer>
+
+        <!-- Placement du javascript ici pour ne pas bloquer le chargement de la page -->
+        <script type="text/javascript" src="js/fleche.js"></script>  <!-- Script permettant un défilement animé pour remonter en haut de page -->
+    </body>
+</html>
